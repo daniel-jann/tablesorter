@@ -848,6 +848,7 @@
                 if (a) {
                     parsers.push(parser);
                 };
+                return this;
             };
             this.addWidget = function (widget) {
                 widgets.push(widget);
